@@ -1,6 +1,23 @@
+.first-color { 
+	background: #dbd8e3; 
+}
+	
+.second-color { 
+	background: #5c5470; 
+}
+
+.third-color { 
+	background: #352f44; 
+}
+
+.fourth-color { 
+	background: #2a2438; 
+}
+
 body {
 	font-family: arial;
 	margin: 0;
+	background: #dbd8e3;
 }
 
 #smiley {
@@ -8,27 +25,36 @@ body {
 }
 
 nav {
-	background: #d1ba80;
+	background: #2a2438;
 	border-bottom: solid;
+	border-bottom-width: 1px;
 }
 
-nav h1 {
-	display: inline;
+ul {
+	margin: 0;
+	display: flex;
+	justify-content: right;
 }
 
-nav li {
-	background: #d1ba80;
+li {
+	background: #2a2438;
 	display: inline-block;
 }
 
-nav li:hover {
-	background: #9e8e64;
+li:hover {
+	background: #352f44;
 }
 
-nav li a {
-  color: black;
-  display: block;
-  text-align: center;
-  padding: 10px 10px;
-  text-decoration: none;
+li a:hover {
+	color: white;
+}
+
+li a {
+	color: #dbd8e3;
+	display: block;
+	text-align: center;
+	padding: 15px 20px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
 }
