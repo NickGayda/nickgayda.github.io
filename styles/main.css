@@ -14,8 +14,29 @@
 	background: #2a2438; 
 }
 
+.body-paragraph {
+	background: white;
+	border: solid;
+	border-width: 1px;
+	border-color: #2a2438;
+	box-shadow: 5px 5px 15px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.center {
+	margin: 0 25%;
+}
+
+footer {
+	font-size: 12px;
+	display: flex;
+	justify-content: center;
+	margin: 50px 0px 0px 0px;
+}
+
 body {
-	font-family: arial;
+	font-family: Verdana;
 	margin: 0;
 	background: #dbd8e3;
 }
