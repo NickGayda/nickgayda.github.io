@@ -14,18 +14,57 @@
 	background: #2a2438; 
 }
 
+.flex {
+	display: flex;
+}
+
+#calculator-display {
+	height: 150px;
+	width: 100%;
+}
+
+#calculator-display-box {
+	background: #2a2438;
+	color: white;
+  	overflow-x: auto;
+}
+
+#calculator-display-numbers {
+	display:flex;
+	justify-content:right;
+	font-size:80px;
+	margin-right: 10px;
+}
+
+.calculator-button {
+	width: 100%;
+	height: 100%;
+	font-size: 36px;
+}
+
+#calculator {
+	background: white;
+	border: solid;
+	border-width: 1px;
+	margin: 20px 0;
+	height: 600px;
+	width: 800px;
+	table-layout: fixed;
+}
+
 .body-paragraph {
 	background: white;
 	border: solid;
 	border-width: 1px;
 	border-color: #2a2438;
 	box-shadow: 5px 5px 15px;
+	margin: 20px 5%;
 	font-size: 18px;
 	padding: 10px;
 }
 
 .center {
-	margin: 0 25%;
+	justify-content: center;
 }
 
 footer {
